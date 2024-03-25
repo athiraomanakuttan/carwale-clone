@@ -58,6 +58,7 @@ nav{
     border: 1px solid #d5d5d5;
     width: 100%;
     margin-top: 5px;
+    color: #d5d5d5;
     
 }
 .search-div{
@@ -184,4 +185,115 @@ padding: 0 24px;
 .vvv{
     background-color: #484848;
     height: 100vh;
+}
+
+/* ---------------- featured starting ---------------  */
+.featured{
+    padding: 1rem;
+    width: 100%;
+}
+.featured ul
+{
+    display: flex;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-left: 0;
+}
+.featured ul li
+{ 
+cursor:pointer;
+font-size: 13px;
+padding:12px 16px;
+font-weight: 700;
+text-transform: uppercase;
+
+}
+
+hr{
+    padding: 0;
+    margin-top: 0;
+}
+.featured .active
+{
+    color: #00afa0;
+    border-bottom: 3px solid #00afa0;
+    margin-left: 0;
+    padding-left: 0;
+}
+.card-div{
+    display: flex;
+    justify-content: space-between;
+}
+.card-div .card
+{
+    width: 32% !important;
+}
+.card-div .card-body{
+    padding: 1rem;
+    background-color: #f9f9f9;
+    position: relative;
+}
+.offer-link svg,.offer-link {
+    width: 15px;
+    color: #00afa0;
+
+}
+.card-div h6{
+    font-size: 16px;
+    font-weight: 400;
+}
+.card-div p{
+    font-size: 13px;
+    color: #aaa;
+}
+.card-div span{
+    color: #484848;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.card-div button{
+    cursor: pointer;
+    border: 1px solid #00afa0;
+    background-color: #fff;
+    color: #00afa0;
+    font-weight: 700;
+    font-size: 13px;
+    height: 32px;
+    padding:0px 20px;
+    border-radius: 2px;
+
+}
+.left-arrow-bar{
+    position: absolute;
+    top: -31px;
+    left: -32px;
+    border-radius: 25px !important;
+    width: 2rem !important;
+    height: 2rem !important;
+    font-size: 26px !important;
+    text-align: center !important;
+    margin: auto;
+    padding: 0 !important;
+    border:none !important;
+    box-shadow:  -4px 0 2px  0 rgba(0,0,0,.15);
+    cursor: pointer;
+    color: #6f6f6f !important;
+}
+.right-arrow-bar
+{
+    position: absolute;
+    top: -31px;
+    right: -32px;
+    border-radius: 25px !important;
+    width: 2rem !important;
+    height: 2rem !important;
+    font-size: 26px !important;
+    text-align: center !important;
+    margin: auto;
+    padding: 0 !important;
+    border:none !important;
+    box-shadow:  4px 0 2px  0 rgba(0,0,0,.15);
+    cursor: pointer;
+    color: #6f6f6f !important;
 }
