@@ -182,10 +182,7 @@ padding: 0 24px;
     position: absolute;
     right: 0;
 }
-.vvv{
-    background-color: #484848;
-    height: 100vh;
-}
+
 
 /* ---------------- featured starting ---------------  */
 .featured{
@@ -297,3 +294,39 @@ hr{
     cursor: pointer;
     color: #6f6f6f !important;
 }
+/* -------------------------- All Brands start --------------------  */
+.all-brands,#all-brands
+{
+    padding: 1rem;
+    width: 100%;
+}
+.all-brands div
+{
+    border: 1px solid #e1e1e1;
+    padding: 2rem;
+    border-radius: 2px;
+}
+.brand-logo
+{
+    width: 100%;
+    height: 100%;
+}
+.view-more-btn
+{
+    text-align: center;
+    border: 1px solid #e1e1e1;
+}
+.view-more-btn 
+{
+    border-top: none !important;
+    color: rgb(69, 69, 214) !important;
+    cursor: pointer;
+}
+.featured h1,#all-brands h1{
+    font-weight: 700;
+    font-size: 22px;
+
+}
+
+
+
