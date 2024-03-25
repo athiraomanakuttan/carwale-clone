@@ -182,6 +182,10 @@ padding: 0 24px;
     position: absolute;
     right: 0;
 }
+h1{
+    font-weight: 700;
+    font-size: 22px;
+}
 
 
 /* ---------------- featured starting ---------------  */
@@ -295,7 +299,7 @@ hr{
     color: #6f6f6f !important;
 }
 /* -------------------------- All Brands start --------------------  */
-.all-brands,#all-brands
+.all-brands,#all-brands,#top-cars
 {
     padding: 1rem;
     width: 100%;
@@ -327,6 +331,26 @@ hr{
     font-size: 22px;
 
 }
+/* ---------------- find car -------------------  */
 
-
+.car-list-div
+{
+    border:1px solid #e1e1e1;
+    background-color: #f9f9f9;
+    margin:0;
+    padding: 0.3rem 5rem ;
+}
+.car-list-div>a{
+border-radius: 9999px;
+background-color: #fff;
+text-align: center;
+font-weight: 700;
+font-size: 15px;
+height: 40px;
+color: #b5b5b5;
+border: 1px solid #b5b5b5;
+margin-top: 2rem;
+line-height: 100px;
+padding: 13px 32px;
+}
 
