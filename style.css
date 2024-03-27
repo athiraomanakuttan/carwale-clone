@@ -34,6 +34,7 @@ nav{
     width: 78% !important;
     height: auto !important;
     /* margin-top: -0.5rem; */
+
 }
 .logo-div{
     display: flex;
@@ -300,7 +301,7 @@ hr{
     color: #6f6f6f !important;
 }
 /* -------------------------- All Brands start --------------------  */
-.all-brands,#all-brands,#top-cars,#popular-cars
+.all-brands,#all-brands,#top-cars,#popular-cars,#compare-car
 {
     padding: 1rem;
     width: 100%;
@@ -362,7 +363,7 @@ line-height: 100px;
 padding: 13px 32px;
 }
 /* ------------------- Top car section -------------  */
-#top-cars h3,#popular-cars h3
+#top-cars h3,#popular-cars h3,#compare-car h3
 {
     line-height: 1.51;
     font-weight: 700;
@@ -546,4 +547,69 @@ footer .seond-div
     font-size: 13px;
     padding-bottom: 0 !important;
     margin-bottom: 0;
+}
+/* ---------------- compare car style --------  */
+#compare-car .container{
+    display: flex;
+    justify-content: space-between;
+}
+.compare{
+    display: flex;
+    flex-direction: row;
+}
+#compare-car .card{
+    width: 30%;
+    padding: 1rem;
+    /* padding-bottom: 0px; */
+}
+#compare-car img{
+    width: 100%;
+}
+#compare-car h6{
+    color:#6f6f6f;
+    font-size: 13px;
+    margin: 0;
+}
+#compare-car p{
+    font-size: 12px;
+    padding-top: 3px;
+    color: #b5b5b5;
+}
+.mid-car-div{
+    width: 1px;
+    height: 65%!important;
+    background-color: rgba(0, 0, 0, .125);
+    margin: 0 2rem;
+    position: relative;
+   
+}
+.mid-car-div button{
+    position: absolute;
+    top: 40%;
+    right:-14px;
+    border: 1px solid #484848;
+    border-radius: 25px;
+    height: 25px;
+    width: 25px;
+    font-size: 11px;
+    color: rgb(245, 5, 5);
+}
+.compare-car-button{
+    display: block !important;
+    width: 100%;
+}
+.compare-car-button button{
+    width: 100%;
+    cursor: pointer;
+    border : 1px solid #0288d1;
+    color:#0288d1;
+    border-radius: 3px;
+    background-color: #fff;
+    font-weight: 700;
+    font-size: 13px;
+    padding:10px 8px;
+}
+#compare-car h1{
+    margin-left: 6.3rem !important;
+    margin-bottom: 1rem;
 }
