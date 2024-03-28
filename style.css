@@ -548,6 +548,9 @@ footer .seond-div
     padding-bottom: 0 !important;
     margin-bottom: 0;
 }
+.credits p{
+    margin-bottom:0 !important ;
+}
 /* ---------------- compare car style --------  */
 #compare-car .container{
     display: flex;
